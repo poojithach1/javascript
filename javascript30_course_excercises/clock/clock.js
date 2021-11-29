@@ -10,21 +10,21 @@ function setDate() {
 
 
    const seconds = now.getSeconds();
-   const secondsDegrees=((seconds / 60) * 360) ;
+   const secondsDegrees=((seconds / 60) * 360) + 90 ;
 
-   secondHand.style.transform =`rotate (${secondsDegrees}deg)`;
-   // console.log(secondsDegrees);
+   secondHand.style.transform =`rotate(${secondsDegrees}deg)`;
+  //  console.log(secondsDegrees);
    // console.log(seconds);
 
    const mins = now.getMinutes();
-   const minsDegrees = ((mins / 60) * 360) +((seconds * 6 / 60) / 60);
+   const minsDegrees = ((mins / 60) * 360) +((seconds / 60)*6)+ 90 ;
    minsHand.style.transform = `rotate(${minsDegrees}deg)`;
-   // console.log(minsDegrees);
+  //  console.log(minsDegrees);
 
-   const hour = now.getMinutes();
-   const hourDegrees = ((hour / 12) * 360) +((mins * 30 / 60 ) / 12) ;
+   const hour = now.getHours();
+   const hourDegrees = ((hour / 12) * 360)  + ((mins / 60)*30) + 90 ; 
    hourHand.style.transform = `rotate(${hourDegrees}deg)`;
-   // console.log(hourDegrees);
+   console.log(hourDegrees);
 
 }
 setInterval(setDate,1000) ;
