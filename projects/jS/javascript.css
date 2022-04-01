@@ -1,0 +1,23 @@
+.background {
+    background-color: cornsilk;
+    height: 100vh;
+}
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.paragraph {
+    font-size: 50px;
+    font-weight: bold;
+}
+.button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 8px;
+}
