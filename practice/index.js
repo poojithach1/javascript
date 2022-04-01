@@ -1,4 +1,6 @@
-  
+const assert = require("assert");
+
+console.assert(add(3,4) === 8, "not matched");
   
   
   function printPrimeNumbersBetween(numberString) {
@@ -135,6 +137,8 @@ function square(a) {
 function squareRoot(a) {
     return  a ** (1/2)
 }
+
+
  
 function main() {
  // printPrimeNumbersBetween(1, 100);
