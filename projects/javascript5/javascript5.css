@@ -1,0 +1,11 @@
+.imag {
+    height: 80%;
+    width: 85vh;
+
+}
+.button {
+    background-color: rgb(31, 75, 221);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}

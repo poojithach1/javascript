@@ -52,14 +52,12 @@ function multiplyNumericInObject(obj) {
 function createClone(obj) {
    let clone ={};
    for( let key in obj){
-      
-        
-         if   (typeof(obj[key]) === "object") {
-           clone[key] = createClone(obj[key]);
-        }
-        else {
-             clone[key] = obj[key]
-        }
+      if   (typeof(obj[key]) === "object") {
+      clone[key] = createClone(obj[key]);
+      }
+      else {
+        clone[key] = obj[key]
+      }
     }  
     return clone;
 }
@@ -101,13 +99,11 @@ function createClone(obj) {
 
 
 function printNumberInObject(obj) {
-    for ( let prop in obj){
-      if(typeof(obj[prop])==="number") {
-          console.log(prop + ":" + obj[prop])
-      }
+  for ( let prop in obj){
+    if(typeof(obj[prop])==="number") {
+      console.log(prop + ":" + obj[prop]);
     }
-       
-
+  }
 }
 
 

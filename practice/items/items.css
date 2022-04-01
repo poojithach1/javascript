@@ -1,0 +1,51 @@
+html {
+    background: cornflowerblue;
+    background-position: center;
+}
+ 
+.add-items-container {
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 60px; 
+    background-position:center  ;
+}
+.add-button {
+    border-radius: 5px;
+    background: rgb(55, 235, 235);
+    color:black;
+    font-size: 30px;
+}
+input {
+   font-size: 25px;
+   font-family: sans-serif;
+   padding: 10px;
+}
+.items-list {
+    background: rgb(247, 197, 122);
+    background-size: cover;
+    min-height: 500px;
+   max-width: auto;
+   width: 500px;
+    
+}
+ul {
+    font-size: 15px;
+
+    margin-left: 40px;
+}
+h2 {
+    margin-top: 10px;
+    padding: 20px;
+}
+li {
+    text-align: left;
+    font-size:20px;
+}
+.li-button {
+    background: lightsalmon;
+    color:black;
+    border-radius: 4px;
+    justify-content: flex-end;
+    
+} 
